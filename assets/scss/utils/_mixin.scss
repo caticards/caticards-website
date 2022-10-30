@@ -1,0 +1,36 @@
+@mixin btn {
+    padding: 15px 10px;
+    width: 18rem;
+    margin-top: 15px;
+    background: linear-gradient(30deg, $color-gradient, $color-primary);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    transition: transform 400ms;
+    transform: scale(1);
+    &:hover {
+        transform: scale(1.1)
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+}
+
+@mixin link {
+    font-size: 18px;
+    color: $color-primary;
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    &:hover {
+        color: $text-color;
+        border-bottom: 1px solid $text-color;
+    }
+}

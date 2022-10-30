@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    & img {
+        display: none;
+        width: 30px;
+        height: 30px;
+        @media screen and (max-width: 480px) {
+            display: inline-block;
+            order: 1;
+        }
+    }
+    &__link {
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: 300;
+        & a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 0;
+            &:hover {
+                border-bottom: 2px solid black;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+    }
+}
