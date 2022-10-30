@@ -16,6 +16,9 @@
     &:hover {
         transform: scale(1.1)
     }
+    &:visited{
+        color: white;
+    }
     @media screen and (max-width: 480px) {
         font-size: 16px;
         padding: 15px 5px;

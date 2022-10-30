@@ -103,18 +103,21 @@
         }
         //------------- PRODUITS RECHERCHES-----------------------
         & .wanted {
-            margin: 30px 5%;
+            
             & h2 {
+                margin: 30px 5%;
                 text-align: left;
                 margin-bottom: 30px;
             }
             &__cards {
+                margin: 30px 5%;
                 display: flex;
                 justify-content: space-between;
                 cursor: pointer;
                 flex-wrap: wrap;
                 &>div {
                     display: flex;
+                   
                     flex-direction: column;
                     gap: 0.5em;
                     @media screen and (max-width: 480px) {
@@ -130,6 +133,10 @@
                             width: 150px;
                             height: 150px;
                         }
+                    }
+
+                    & p{
+                        text-decoration: none;
                     }
                 }
             }
