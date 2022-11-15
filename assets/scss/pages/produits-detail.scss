@@ -1,0 +1,197 @@
+.details-produits {
+    display: flex;
+    justify-content: center;
+    margin: 5% 15%;
+    &>div {
+        display: flex;
+        flex-direction: column;
+    }
+    & .col-1 {
+        &__round {
+            border-radius: 50%;
+        }
+        & img {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    & .col-3 {
+        position: sticky;
+        top: 0px;
+        gap: 1rem;
+        & .boutons-paiement {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.7rem;
+            & .transparent {
+                padding: 0 30px;
+                border-radius: 40px;
+                border: 1px solid $color-secondary;
+                background-color: white;
+                color: $text-color;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: baseline;
+                gap: 1.5rem;
+                cursor: pointer;
+                margin-top: 10px;
+                height: 70px;
+                & span {
+                    font-size: 22px;
+                }
+            }
+            & .btn {
+                font-size: 22px;
+            }
+        }
+        & .qualites {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+            &>div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        & .livraison {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
+
+.particularite {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px 5%;
+    gap: 1rem;
+    &>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+.container {
+    display: flex;
+    &__video {
+        & .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // align-items: center;
+            gap: 1.5rem;
+            & span {
+                background-color: $text-color;
+                height: 3px;
+                width: 50px;
+            }
+        }
+    }
+}
+
+.galery {
+    margin: 200px 5%;
+    & h2 {
+        margin-left: 5px;
+    }
+    & .collection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+        & :nth-child(7) {
+            width: 99%;
+            object-fit: cover;
+        }
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+        & img {
+            width: 33%;
+            height: 350px;
+        }
+    }
+}
+
+.comparaison {
+    margin: 5%;
+    & h2 {
+        margin-left: 50px;
+    }
+    & .comparative-point {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        &>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 50px;
+            width: 30%;
+            & img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+.demo {
+    margin: 5%;
+    & #background-video {
+        width: 90vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+    & .stars {
+        display: flex;
+        margin: 200px 0;
+        &>div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+            & img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+.green-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f8f5;
+    margin: 200px 200px 100px 200px;
+    border: 1px solid #4a8674;
+    padding: 20px;
+    & .left {
+        display: flex;
+        gap: 0.7rem;
+        justify-content: center;
+        align-items: center;
+        color: #1d4136;
+        & img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    & .right {
+        color: #4a8674;
+        font-weight: 100;
+    }
+}
