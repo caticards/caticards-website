@@ -21,21 +21,3 @@ main {
         }
     }
 }
-
-// .products {
-//     display: flex;
-//     gap: 1.7rem;
-//     margin: 5% 0;
-//     justify-content: center;
-//     &>div {
-//         display: flex;
-//         flex-direction: column;
-//         gap: 0.5rem;
-//         cursor: pointer;
-//         & img {
-//             width: 320px;
-//             height: 320px;
-//             border-radius: $card-border-radius;
-//         }
-//     }
-// }

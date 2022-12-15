@@ -1,0 +1,82 @@
+.users {
+    & .heading {
+        width: 100%;
+        height: 160px;
+        background-image: url("~/assets/images/fleur.jpg");
+        background-position: center;
+        & .profile-picture {
+            & img {
+                height: 80px;
+                width: 80px;
+                left: 20px;
+                top: 120px;
+                border-radius: 5px;
+                object-fit: cover;
+                position: relative;
+                border: 2px solid $border-color-1;
+            }
+        }
+    }
+    & .informations {
+        margin: 0 10%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 20px;
+        margin-top: 45px;
+        @media screen and (max-width: 480px) {
+            display: block;
+        }
+        & .profile {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+            & .naming {
+                display: flex;
+                flex-direction: column;
+            }
+            & :nth-child(1) {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        & .icons {
+            width: 40px;
+            height: 40px;
+        }
+        & .small-txt {
+            font-size: small;
+            font-weight: 200;
+        }
+        & .social {
+            display: flex;
+            flex-direction: column;
+            & .title {
+                background-color: $title-bg;
+                ;
+                text-align: center;
+                color: $call-border-1;
+                padding: 5px 0;
+            }
+        }
+        & .call-to-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0;
+            padding: 5px 20px;
+            border: 1px solid $call-border-1;
+            & .middle {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                & a {
+                    color: $text-color;
+                }
+            }
+        }
+        @media screen and (max-width: 480px) {
+            margin: 10vh 20px;
+        }
+    }
+}

@@ -1,15 +1,19 @@
 <template>
   <div>
     <div class="details-produits">
-      <div class="col-1">
+      <div class="container-sticky">
+        <div class="col-1 col-1__sticky">
         <Variantes />
       </div>
+      </div>
+     
 
       <div class="col-2">
         <Variantes />
       </div>
 
-      <div class="col-3">
+      <div class="container-sticky">
+        <div class="col-3">
         <p>Collection classique</p>
         <h2>Carte Classique Tapni</h2>
         <div class="boutons-paiement">
@@ -57,6 +61,9 @@
           </div>
         </div>
       </div>
+      </div>
+
+    
     </div>
 
     <div class="particularite">
@@ -197,9 +204,7 @@
       <video id="background-video" autoplay loop muted>
         <source src="~/assets/images/video-demo.mp4" type="video/mp4" />
       </video>
-      <!-- <video autoplay muted loop>
-        <source src="" type="video/mp4" />
-      </video> -->
+      
       <div class="stars">
         <div>
           <img src="~/assets/images/wow-effect2_460x.png" alt="" />
