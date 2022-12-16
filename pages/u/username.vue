@@ -45,6 +45,13 @@
           />
         </div>
       </div>
+      <div class="social-media">
+        <img class="icons" src="~/assets/images/Instagram-Icon 1.png" alt="">
+        <img class="icons" src="~/assets/images/logos_linkedin-icon.png" alt="">
+        <img class="icons" src="~/assets/images/logos_youtube-icon.png" alt="">
+        <img class="icons" src="~/assets/images/twiter.png" alt="">
+        <img class="icons" src="~/assets/images/tiktok-app-icon-seeklogo.com 1.png" alt="">
+      </div>
     </div>
   </div>
 </template>

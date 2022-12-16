@@ -1,68 +1,66 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'caticards-website',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+    // Global page headers: https://go.nuxtjs.dev/config-head
+    head: {
+        title: 'caticards-website',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: '' },
+            { name: 'format-detection', content: 'telephone=no' }
+        ],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ]
+    },
+
+    // Global CSS: https://go.nuxtjs.dev/config-css
+    css: [
+        '~assets/scss/main.scss'
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '~assets/scss/main.scss'
-  ],
+    styleResources: {
+        scss: []
+    },
 
-  styleResources: {
-    scss: [
-    ]
-  },
+    // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+    plugins: [],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+    // Auto import components: https://go.nuxtjs.dev/config-components
+    components: {
+        dirs: [
+            '~/components',
+            '~/components/advantages',
+            '~/components/products',
+            '~/components/user',
+        ]
+    },
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: {
-    dirs: [
-      '~/components',
-      '~/components/advantages',
-      '~/components/products',
-    ]
-  },
+    // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+    buildModules: [
+        '@nuxtjs/style-resources',
+    ],
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    '@nuxtjs/style-resources',
-  ],
+    // Modules: https://go.nuxtjs.dev/config-modules
+    modules: [
+        // https://go.nuxtjs.dev/axios
+        '@nuxtjs/axios',
+        // https://go.nuxtjs.dev/pwa
+        '@nuxtjs/pwa',
+    ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-  ],
+    // Axios module configuration: https://go.nuxtjs.dev/config-axios
+    axios: {
+        // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+        baseURL: '/',
+    },
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
-  },
+    // PWA module configuration: https://go.nuxtjs.dev/pwa
+    pwa: {
+        manifest: {
+            lang: 'en'
+        }
+    },
 
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en'
-    }
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+    // Build Configuration: https://go.nuxtjs.dev/config-build
+    build: {}
 }
