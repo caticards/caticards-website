@@ -1,5 +1,5 @@
 <template>
-    <div>
+     <div>
       <img 
       class="full"
       :src="require(`~/assets/images/${media}`)" alt="" />
@@ -7,9 +7,10 @@
 </template>
 
 <script>
-export default{
-    props:{
-        media:String,
-    }
-}
+export default {
+  props: {
+    media: String,
+   
+  },
+};
 </script>

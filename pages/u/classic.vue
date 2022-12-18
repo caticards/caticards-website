@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <Background media="verdure.jpeg" />
+    <Fullpic media="verdure.jpeg" />
 
     <div class="userprofile">
       <Profile
@@ -15,7 +15,7 @@
 
       <Contact
         title="Le nouveau son est disponible"
-        hasDescription="1"
+        hasDescription
         description="Milagan Maa"
         media="mdi_spotify.png"
       />
@@ -37,10 +37,10 @@
 </template>
 
 <script>
-import Background from "./Background.vue";
+
 
 export default {
   layout: "userlink",
-  components: { Background },
+
 };
 </script>

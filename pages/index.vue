@@ -18,8 +18,8 @@
     <VideoContainer
       subtitle="MISE À NIVEAU DU RÉSEAU"
       title="Votre Carte de Visite Numérique"
-      hasButton="1"
-      hasDivPlus="1"
+      hasButton
+      hasDivPlus
       description="Partagez vos réseaux sociaux et vos coordonnées de manière intelligente, rapide et durable."
       media="video1.mp4"
     />
@@ -57,7 +57,7 @@
 
     <!-- ----------------FIN PRODUITS RECHERCHES----------------- -->
     <VideoContainerGray
-      hasButton="1"
+      hasButton
       subtitle="FAITES EN VÔTRE"
       title="Personnalisé en quelques clics."
       description="Faites en sorte que votre carte Tapni corresponde à votre style et à votre image de marque pour créer

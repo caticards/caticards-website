@@ -1,3 +1,4 @@
+// ------------ STYLE POUR L'IMAGE EN FOND------------
 .full {
     position: absolute;
     object-fit: cover;
@@ -6,6 +7,7 @@
     z-index: 0;
 }
 
+// -------------- PROFILE DE L'UTILISATEUR-------------------
 .userprofile {
     position: relative;
     z-index: 8;
@@ -42,6 +44,7 @@
             text-decoration: underline;
         }
     }
+    // -------------- CTA SITE PORTFOLIO ET MAIL-------------------
     & .contact {
         background-color: $color-contact;
         margin: 20px 0;
@@ -52,7 +55,16 @@
         grid-template-columns: 30px 1fr;
         grid-gap: 20px;
         align-items: center;
+        cursor: pointer;
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            color: darken($border-color-1, 5%);
+            background-color: lighten($call-border-1, 5%);
+            transform: scale(1.05)
+        }
     }
+    // ----------RESEAUX SOCIAUX---------------
     & .social-media {
         display: flex;
         justify-content: center;

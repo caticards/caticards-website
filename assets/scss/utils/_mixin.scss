@@ -43,4 +43,14 @@
     border: none;
     padding: 10px;
     color: $border-color-1;
+    margin: 20px 0 10px 0;
+    border-radius: $btn-border-radius;
+    cursor: pointer;
+    transform: scale(0.8);
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        color: darken($border-color-1, 5%);
+        background-color: lighten($call-border-1, 5%);
+        transform: scale(0.9)
+    }
 }
