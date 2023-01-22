@@ -1,8 +1,20 @@
+@mixin mobile-only {
+    @media screen and (max-width: map-get($breakpoints, mobile)) {
+        @content;
+    }
+}
+
+@mixin tablets {
+    @media screen and (min-width: map-get($breakpoints, tablets)) and (max-width: 1024px) {
+        @content;
+    }
+}
+
 @mixin btn {
-    padding: 15px 10px;
-    width: 18rem;
+    padding: 15px 30px;
+    width: 15rem;
     margin-top: 15px;
-    background: linear-gradient(30deg, $color-gradient, $color-primary);
+    background-color: $color-primary;
     border: none;
     color: white;
     cursor: pointer;
@@ -14,12 +26,12 @@
     transition: transform 400ms;
     transform: scale(1);
     &:hover {
-        transform: scale(1.1)
+        transform: scale(1.05)
     }
     &:visited {
         color: white;
     }
-    @media screen and (max-width: 480px) {
+    @include mobile-only() {
         font-size: 16px;
         padding: 15px 5px;
     }

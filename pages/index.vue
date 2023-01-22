@@ -2,9 +2,9 @@
   <main>
     <div class="container">
       <div class="left">
-        <p>INTELLIGENT . GAIN DE TEMPS . DURABLE</p>
-        <h1>Carte de Visite Réinventée</h1>
-        <NuxtLink to="/commander-une-carte" class="btn">
+        <p>PERSONNALISABLE . ECO-RESPONSABLE . PRATIQUE</p>
+        <h1>La carte high-tech qui vous démarque</h1>
+        <NuxtLink to="" class="btn">
           Commander Maintenant</NuxtLink
         >
       </div>
@@ -13,151 +13,77 @@
       </div>
     </div>
 
-    <AdvantagesList />
-
-    <VideoContainer
-      subtitle="MISE À NIVEAU DU RÉSEAU"
-      title="Votre Carte de Visite Numérique"
-      hasButton
-      hasDivPlus
-      description="Partagez vos réseaux sociaux et vos coordonnées de manière intelligente, rapide et durable."
-      media="video1.mp4"
-    />
-
-    <div>
-      <h2>
-        +20 000 particuliers et entreprises ont expérimenté le réseautage de
-        niveau supérieur
-      </h2>
-    </div>
-
-    <div class="companies">
-      <div>
-        <img src="~/assets/images/DV.jpg" />
-      </div>
-      <div>
-        <img src="~/assets/images/ErsteBank.jpg" />
-      </div>
-      <div>
-        <img src="~/assets/images/Ottakringer.jpg" />
-      </div>
-      <div>
-        <img src="~/assets/images/ErsteBank.jpg" />
-      </div>
-      <div>
-        <img src="~/assets/images/Ottakringer.jpg" />
-      </div>
-    </div>
-    <!-- -----------------PRODUITS RECHERCHES------------------ -->
-    <div class="wanted">
-      <h2>Les plus recherchés</h2>
-      <ProductsList />
-    </div>
     
 
-    <!-- ----------------FIN PRODUITS RECHERCHES----------------- -->
-    <VideoContainerGray
-      hasButton
-      subtitle="FAITES EN VÔTRE"
-      title="Personnalisé en quelques clics."
-      description="Faites en sorte que votre carte Tapni corresponde à votre style et à votre image de marque pour créer
-          une expérience unique et inoubliable."
-    />
+    
+
+    <!-- ----------------- NOS PRODUITS------------------ -->
+    <div class="presentation">
+      <h1>Nos différents produits</h1>
+      <span></span>
+    </div>
+    <ProductsList />
+    <!-- ----------------FIN NOS PRODUITS ----------------- -->
+  
 
     <HowItWork />
 
-    <!-- --------------VARIETES DE CARTES----------------- -->
-    <div class="varieties">
-      <div class="box-1">
-        <img src="~/assets/images/emoji.png" alt="emoji" />
-        <div>
-          <p>UN TAP, PAS D'APPLICATION!</p>
-          <h1>Pas besoin d'une application pour recevoir vos informations.</h1>
-        </div>
-      </div>
-      <div class="collection">
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-4.webp" />
-        <img src="~/assets/images/card-5.webp" />
-        <img src="~/assets/images/card-5.webp" />
-      </div>
-      <div class="moblie">
-        <img src="~/assets/images/card-4.webp" />
-      </div>
-    </div>
+ 
 
-    <!-- ---------------TEMOIGNAGES-------------- -->
-    <div class="vue-sur">
-      <h2>Vu sur 👀</h2>
-      <div>
+    <!-- ------------COMMANDE DE CARTE-------------- -->
+    
+    <div class="comparaison">
+      <h1>Cati Cards vs Carte de visite classique</h1>
+      <div class="comparative-point">
         <div>
-          <div>
-            <img src="~/assets/images/temoignages-entreprise-1.png" />
-          </div>
-          <h2>2 minutes 2 millions</h2>
+          <img src="~/assets/images/speed-sharing_460x.jpg" alt="" />
+          <h3>Un gain de temps</h3>
           <p>
-            Tapni participait à la 9e saison du succès du Start-Up-Show
-            autrichien 2 Minuten 2 Millionen. Découvrez comment notre
-            présentation du fondateur et PDG s'est déroulée devant les
-            investisseurs, rencontrez notre équipe et voyez comment nous nous
-            sommes développés à l'échelle mondiale en quelques mois seulement.
-            <br />
-          </p>
-          <a class="link" href="#"
-            >Voir ici<span><i class="uil uil-arrow-right"></i> </span
-          ></a>
-        </div>
-        <div>
-          <div>
-            <img src="~/assets/images/temoignages-entreprise-1.png" />
-          </div>
-          <h2>Business Insider Mexique</h2>
-          <p>
-            "Tapni est née en 2021 avec pour mission de faciliter le partage
-            d'informations pour tous. Avec des sièges sociaux en Autriche et au
-            Mexique, et des franchises en Arabie saoudite, en Colombie et en
-            Serbie, elle sert des milliers de clients avec une assistance
-            localisée et une livraison rapide."
+            Partagez instantanément vos informations d'un simple toucher ou
+            numérisez. Échangez des informations de contact, des médias sociaux,
+            des sites Web et plus encore.
           </p>
         </div>
         <div>
-          <div>
-            <img src="~/assets/images/temoignages-entreprise-1.png" />
-          </div>
-          <h2>Der Brutaksten</h2>
+          <img src="~/assets/images/update_460x.webp" alt="" />
+          <h3>Mettre à jour à tout moment</h3>
           <p>
-            "L'autre personne n'a pas besoin d'une application ou d'un produit
-            Tapni pour recevoir mes informations de contact. Tout ce dont elle a
-            besoin, c'est d'un smartphone compatible NFC, ce que la majorité de
-            tous les appareils finaux sont déjà." - PDG et co-fondateur Mihajlo
-            Nikodijević
+            Édition en temps réel. Mettez à jour vos informations depuis
+            n'importe quel endroit et elles se synchroniseront automatiquement.
           </p>
         </div>
-      </div>
-    </div>
-
-    <!-- -----------------FIN TEMOIGNAGE--------------------- -->
-    <div class="container container__video">
-      <div class="left">
-        <p>ALLEZ AU-DELÀ DU PARTAGE DE VOTRE NUMÉRO DE TÉLÉPHONE</p>
-        <h1>
-          Échangez des contacts et collectez des données, plus facilement que
-          jamais.
-        </h1>
-        <span></span>
-        <NuxtLink to="/commander-une-carte" class="btn">
-          Commander Maintenant</NuxtLink
-        >
+        <div>
+          <img src="~/assets/images/wow-effect2_460x.png" alt="" />
+          <h3>Effet Wow - inclus</h3>
+          <p>
+            Surprenez vos futures connexions avec le moyen le plus rapide et le
+            plus cool de partager des informations.
+          </p>
+        </div>
+        <div>
+          <img src="~/assets/images/QR_460x.webp" alt="" />
+          <h3>Compatibilité par défaut</h3>
+          <p>
+            Partagez avec n'importe qui. Compatible avec tous les smartphones
+            modernes, Apple et Android.
+          </p>
+        </div>
+        <div>
+          <img src="~/assets/images/cost_460x.png" alt="" />
+          <h3>Rentable</h3>
+          <p>
+            Remplacez des centaines de cartes de visite en papier par une qui
+            utilise la technologie contemporaine.
+          </p>
+        </div>
+        <div>
+          <img src="~/assets/images/tree2_460x.png" alt="" />
+          <h3>Respectueux de la nature</h3>
+          <p>
+            En passant à la solution numérique, moins d'arbres sont coupés
+            pour nos besoins de mise en réseau.
+          </p>
+        </div>
       </div>
     </div>
   </main>

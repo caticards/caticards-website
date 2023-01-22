@@ -1,8 +1,8 @@
 <template>
     <footer>
-        <p>Voir nos <span>222</span> avis sur <i class="uil uil-star"></i> Trustpilot</p>
+      
 
-        <div>
+        <!-- <div>
             <div>
                 <h3>Cartes de visite réinventées.</h3>
                 <p>Tapni ⏤ L'avenir du réseautage</p>
@@ -42,18 +42,18 @@
                 <p>Commencez à mieux réseauter, dès aujourd'hui.</p>
                 <img src="~assets/images/appstore.png" alt="appstore">
             </div>
-        </div>
+        </div> -->
 
         <div class="copyright">
-            <p>© 2022 Tapni Europe. Tous les droits sont réservés.</p>
+            <p>© 2023 Cati Cards. Tous les droits sont réservés.</p>
 
-            <div>
+            <!-- <div>
                 <p>Politique de confidentialité </p>
                 <p>Politique de remboursement</p>
                 <p>Conditions d'utilisation</p>
                 <p> Déclaration de droits d'auteur</p>
                 <p>Droit d'annulation</p>
-            </div>
+            </div> -->
         </div>
     </footer>
 </template>

@@ -1,9 +1,9 @@
 <template>
     <header class="header">
         <div class="header__logo">
-            <NuxtLink to="/"> <img src="~assets/images/logo.webp" alt="logo" /></NuxtLink>
+            <NuxtLink to="/"> <img src="~assets/images/logoCatiVert.svg" alt="logo" /></NuxtLink>
         </div>
-        <nav class="nav">
+        <!-- <nav class="nav">
             <img src="~assets/images/icon-menu.png" alt="icône de menu">
 
             <p class="nav__link nav__link--active ">  <NuxtLink to="/commander-une-carte">Commander</NuxtLink>  </p>
@@ -11,9 +11,9 @@
 
 
 
-        </nav>
+        </nav> -->
         <div class="header__icon">
-            <img src="~assets/images/header-icon.svg">
+            <i class="las la-3x la-shopping-basket"></i>
         </div>
 
     </header>

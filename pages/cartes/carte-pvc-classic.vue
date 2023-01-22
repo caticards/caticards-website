@@ -1,70 +1,6 @@
 <template>
   <div>
-    <div class="details-produits">
-      <div class="container-sticky">
-        <div class="col-1 col-1__sticky">
-        <Variantes />
-      </div>
-      </div>
-     
-
-      <div class="col-2">
-        <Variantes />
-      </div>
-
-      <div class="container-sticky">
-        <div class="col-3">
-        <p>Collection classique</p>
-        <h2>Carte Classique Tapni</h2>
-        <div class="boutons-paiement">
-          <button class="transparent"><span>-</span> 1 <span> +</span></button>
-          <button class="btn">Ajouter au panier</button>
-        </div>
-        <p><span>Color:</span> Black</p>
-        <div class="col-1 col-1__round">
-          <Variantes />
-        </div>
-
-        <div class="qualites">
-          <div>
-            <i class="uil uil-truck"></i>
-            <p>Expédition rapide</p>
-          </div>
-          <div>
-            <i class="uil uil-flower"></i>
-            <p>Respectueux de la nature</p>
-          </div>
-          <div>
-            <i class="uil uil-flower"></i>
-            <p>100% Garantie</p>
-          </div>
-          <div>
-            <i class="uil uil-qrcode-scan"></i>
-            <p>Entièrement capable</p>
-          </div>
-        </div>
-
-        <div class="livraison">
-          <i class="uil uil-truck">Livraison</i>
-          <div>
-            <h3>L'Europe:</h3>
-            <p>- Livraison standard (GLS) : 3-7 jours ouvrables</p>
-            <p>-DHL Express : 1-3 jours ouvrables</p>
-          </div>
-          <div>
-            <h3>À l'échelle mondiale :</h3>
-            <p>- Livraison standard : 7-14 jours ouvrables</p>
-            <p>
-              🚀 Livraison DHL Express gratuite disponible pour les commandes de
-              plus de 100 € en Europe.
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-
     
-    </div>
 
     <div class="particularite">
       <div>
@@ -138,60 +74,7 @@
       </div>
     </div>
 
-    <div class="comparaison">
-      <h2>Tapni vs Carte de visite classique</h2>
-      <div class="comparative-point">
-        <div>
-          <img src="~/assets/images/speed-sharing_460x.jpg" alt="" />
-          <h3>Un gain de temps</h3>
-          <p>
-            Partagez instantanément vos informations d'un simple toucher ou
-            numérisez. Échangez des informations de contact, des médias sociaux,
-            des sites Web et plus encore.
-          </p>
-        </div>
-        <div>
-          <img src="~/assets/images/update_460x.webp" alt="" />
-          <h3>Mettre à jour à tout moment</h3>
-          <p>
-            Édition en temps réel. Mettez à jour vos informations depuis
-            n'importe quel endroit et elles se synchroniseront automatiquement.
-          </p>
-        </div>
-        <div>
-          <img src="~/assets/images/wow-effect2_460x.png" alt="" />
-          <h3>Effet Wow - inclus</h3>
-          <p>
-            Surprenez vos futures connexions avec le moyen le plus rapide et le
-            plus cool de partager des informations.
-          </p>
-        </div>
-        <div>
-          <img src="~/assets/images/QR_460x.webp" alt="" />
-          <h3>Compatibilité par défaut</h3>
-          <p>
-            Partagez avec n'importe qui. Compatible avec tous les smartphones
-            modernes, Apple et Android.
-          </p>
-        </div>
-        <div>
-          <img src="~/assets/images/cost_460x.png" alt="" />
-          <h3>Rentable</h3>
-          <p>
-            Remplacez des centaines de cartes de visite en papier par une qui
-            utilise la technologie contemporaine.
-          </p>
-        </div>
-        <div>
-          <img src="~/assets/images/tree2_460x.png" alt="" />
-          <h3>Respectueux des arbres</h3>
-          <p>
-            En passant à la solution numérique, moins d'arbres 🌳 sont coupés
-            pour nos besoins de mise en réseau.
-          </p>
-        </div>
-      </div>
-    </div>
+    
     <VideoContainerGray
       hasButton="False"
       subtitle="FAITES EN VÔTRE"
@@ -204,7 +87,7 @@
       <video id="background-video" autoplay loop muted>
         <source src="~/assets/images/video-demo.mp4" type="video/mp4" />
       </video>
-      
+
       <div class="stars">
         <div>
           <img src="~/assets/images/wow-effect2_460x.png" alt="" />
