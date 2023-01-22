@@ -1,12 +1,18 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'caticards-website',
+        title: 'Cati Cards, La carte High-Tech qui vous démarque !',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: '' },
-            { name: 'format-detection', content: 'telephone=no' }
+            { name: 'format-detection', content: 'telephone=no' },
+            { hid: 'description', name: 'description', content: 'Découvrez Cati Cards, la solution innovante de cartes de visite NFC écologiques. Personnalisez vos cartes en temps réel et échangez vos informations de contact en un simple balayage.' },
+            { hid: 'keywords', name: 'keywords', content: 'Cati Cards, cartes de visite, NFC, écologique, innovant, personnalisable' },
+            { hid: 'og:title', property: 'og:title', content: 'Cati Cards - La solution innovante de cartes de visite NFC écologiques' },
+            { hid: 'og:description', property: 'og:description', content: 'Découvrez Cati Cards, la solution innovante de cartes de visite NFC écologiques. Personnalisez vos cartes en temps réel et échangez vos informations de contact en un simple balayage.' },
+            { hid: 'og:image', property: 'og:image', content: 'https://www.example.com/images/caticards-logo.jpg' },
+            { hid: 'og:url', property: 'og:url', content: 'https://www.example.com/caticards' },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -59,7 +65,7 @@ export default {
     // PWA module configuration: https://go.nuxtjs.dev/pwa
     pwa: {
         manifest: {
-            lang: 'en'
+            lang: 'fr'
         }
     },
 

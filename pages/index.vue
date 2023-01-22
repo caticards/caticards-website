@@ -3,19 +3,20 @@
     <div class="container">
       <div class="left">
         <p>PERSONNALISABLE . ECO-RESPONSABLE . PRATIQUE</p>
-        <h1>La carte high-tech qui vous démarque</h1>
-        <NuxtLink to="" class="btn">
-          Commander Maintenant</NuxtLink
-        >
+        <h1>La carte high-tech qui vous démarque!</h1>
+        <a class="btn" data-tf-popup="EDs1wTnQ" data-tf-opacity="100" data-tf-size="100"
+          data-tf-iframe-props="title=Cati Card Order Form" data-tf-transitive-search-params data-tf-medium="snippet">
+          Commander Maintenant</a>
+
       </div>
       <div class="right">
         <img src="~/assets/images/cropimg.webp" />
       </div>
     </div>
 
-    
 
-    
+
+
 
     <!-- ----------------- NOS PRODUITS------------------ -->
     <div class="presentation">
@@ -24,14 +25,14 @@
     </div>
     <ProductsList />
     <!-- ----------------FIN NOS PRODUITS ----------------- -->
-  
+
 
     <HowItWork />
 
- 
+
 
     <!-- ------------COMMANDE DE CARTE-------------- -->
-    
+
     <div class="comparaison">
       <h1>Cati Cards vs Carte de visite classique</h1>
       <div class="comparative-point">
@@ -89,6 +90,17 @@
   </main>
 </template>
 
-
-
+<script>
+export default {
+  head() {
+    return {
+      script: [
+        {
+          src: "//embed.typeform.com/next/embed.js"
+        }
+      ]
+    }
+  }
+}
+</script>
 
