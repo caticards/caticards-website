@@ -4,7 +4,7 @@
             <div>
                 <img :src="require(`~/assets/images/${media}`)">
                 <h4>{{ title }}</h4>
-                <p> {{ price }} CFA</p>
+                <p> {{ price }} </p>
             </div>
        
     </div>

@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div class="header__logo">
-            <NuxtLink to="/"> <img src="~assets/images/logoCatiVert.svg" alt="logo" /></NuxtLink>
+           <img src="~assets/images/logoCatiVert.svg" alt="logo" />
         </div>
         <!-- <nav class="nav">
             <img src="~assets/images/icon-menu.png" alt="icône de menu">
@@ -13,7 +13,7 @@
 
         </nav> -->
         <div class="header__icon">
-            <i class="las la-3x la-shopping-basket" data-tf-popup="EDs1wTnQ" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=Cati Card Order Form" data-tf-transitive-search-params data-tf-medium="snippet" style="cursor: pointer"></i>
+            <i class="las la-3x la-shopping-cart" data-tf-popup="EDs1wTnQ" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=Cati Card Order Form" data-tf-transitive-search-params data-tf-medium="snippet" style="cursor: pointer"></i>
         </div>
 
     </header>
