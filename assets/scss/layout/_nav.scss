@@ -4,10 +4,10 @@
         display: none;
         width: 30px;
         height: 30px;
-        @media screen and (max-width: 480px) {
-            display: inline-block;
-            order: 1;
-        }
+        // @include mobile-only {
+        //     display: inline-block;
+        //     order: 1;
+        // }
     }
     &__link {
         padding: 15px 30px;
@@ -21,7 +21,7 @@
                 border-bottom: 2px solid black;
             }
         }
-        @media screen and (max-width: 480px) {
+        @include mobile-only {
             display: none;
         }
     }

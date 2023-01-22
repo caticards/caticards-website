@@ -3,7 +3,7 @@
         
             <div>
                 <img :src="require(`~/assets/images/${media}`)">
-                <h4>Carte personnalisée tapni</h4>
+                <h4>{{ title }}</h4>
                 <p> {{ price }} CFA</p>
             </div>
        
@@ -16,6 +16,7 @@ export default {
     props: {
         media: String,
         price: String,
+        title:String,
     }
 }
 

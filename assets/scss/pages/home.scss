@@ -108,26 +108,24 @@
                 margin-bottom: 30px;
             }
             &__cards {
-                margin: 30px 5%;
+                margin: 30px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+                @include mobile-only {
+                    justify-content: center;
+                }
                 &>div {
                     display: flex;
                     flex-direction: column;
-                    gap: 0.5em;
-                    margin-bottom: 25px;
-                    @include mobile-only {
-                        width: 50%;
-                        justify-content: center;
-                    }
+                    margin-bottom: 30px;
                     & img {
                         width: $card-width;
                         height: $card-height;
                         border-radius: $card-border-radius;
                         @include mobile-only {
-                            width: 150px;
-                            height: 150px;
+                            width: 300px;
+                            height: 300px;
                         }
                         @include tablets {
                             width: 300px;
@@ -136,6 +134,8 @@
                     }
                     & p {
                         text-decoration: none;
+                        color: $color-primary;
+                        font-weight: 600;
                     }
                 }
             }
@@ -152,7 +152,7 @@
                 flex-grow: 1;
                 align-items: center;
                 justify-content: center;
-                margin: 50px;
+                margin: 50px 30px;
                 @include mobile-only {
                     margin: 30px;
                     flex-direction: column;
@@ -178,7 +178,7 @@
                     }
                     & img {
                         width: 350px;
-                        height: $card-height;
+                        height: 420px;
                     }
                     & p {
                         text-align: center;
@@ -245,12 +245,7 @@
                     margin-bottom: 50px;
                     width: 30%;
                     & p {
-                        @include mobile-only {
-                            text-align: center;
-                        }
-                        @include tablets {
-                            text-align: center;
-                        }
+                        text-align: center;
                     }
                     @include mobile-only {
                         width: 100%;

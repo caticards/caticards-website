@@ -9,10 +9,9 @@
     top: 0px;
     z-index: 5;
     &__logo {
-        @media screen and (max-width: 480px) {
-            width: 100px;
+        @include mobile-only {
+            width: 80px;
             height: 40px;
-            order: 2;
         }
         & img {
             width: 120px;
