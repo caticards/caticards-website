@@ -10,7 +10,7 @@
 
       </div>
       <div class="right">
-        <img src="~/assets/images/cropimg.webp" />
+        <img src="~/assets/images/main-cati-1.webp" />
       </div>
     </div>
 

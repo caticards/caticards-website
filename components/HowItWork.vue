@@ -20,7 +20,7 @@
         </p>
       </div>
       <div>
-        <img src="~/assets/images/iphone-plus-card.png" alt="">
+        <img src="~/assets/images/iphone-plus-card.webp" alt="">
         <h2>3. Partagez-le avec tout le monde</h2>
         <p>
           Activez votre produit et le tour est joué! Partagez votre profil à

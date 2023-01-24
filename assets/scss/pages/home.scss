@@ -1,22 +1,26 @@
     main {
-        margin: 50px 0 100px 0;
+        margin-bottom: 100px;
         @include mobile-only {
-            margin: 20px 0;
+            margin-bottom: 50px;
         }
         .container {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 100px;
+            align-items: center;
+            // margin-bottom: 100px;
+            margin: 50px 0 100px 2%;
             @include mobile-only {
                 flex-direction: column-reverse;
+                gap: 1.5rem;
+                margin: 50px 0;
             }
             @include tablets {
                 flex-direction: column-reverse;
+                margin: 50px 0;
             }
             &__video {
                 margin-top: 5%;
                 & .left {
-                    // margin-right: 5%;
                     width: 95%;
                     gap: 20px;
                     & span {
@@ -50,21 +54,32 @@
             }
         }
         & .left {
-            margin-left: 5%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 2rem;
             @include mobile-only {
-                margin: 20px;
-                gap: 0;
+                margin: 5%;
+                gap: 1rem;
+            }
+            @include tablets {
+                margin: 5%;
             }
         }
-        & .right img {
-            width: 100%;
+        & .right {
+            width: 50%;
             @include mobile-only {
                 width: 100%;
-                height: 100%;
+            }
+            @include tablets {
+                width: 100%;
+            }
+            & img {
+                width: 100%;
+                @include mobile-only {
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
         // ----------------------AVANTAGES DE LA CARTE------------------------
@@ -103,12 +118,12 @@
         //------------- PRODUITS RECHERCHES-----------------------
         & .wanted {
             & h2 {
-                margin: 30px 5%;
+                margin: 30px;
                 text-align: left;
                 margin-bottom: 30px;
             }
             &__cards {
-                margin: 30px;
+                margin: 30px 2%;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
@@ -124,12 +139,12 @@
                         height: $card-height;
                         border-radius: $card-border-radius;
                         @include mobile-only {
-                            width: 300px;
-                            height: 300px;
+                            width: 320px;
+                            height: 320px;
                         }
                         @include tablets {
-                            width: 300px;
-                            height: 300px;
+                            width: 350px;
+                            height: 350px;
                         }
                     }
                     & p {
@@ -152,14 +167,14 @@
                 flex-grow: 1;
                 align-items: center;
                 justify-content: center;
-                margin: 50px 30px;
+                margin: 50px 2%;
                 @include mobile-only {
                     margin: 30px;
                     flex-direction: column;
                 }
-                @include tablets {
-                    flex-direction: column;
-                }
+                // @include tablets {
+                //     flex-direction: column;
+                // }
                 &>div {
                     display: flex;
                     gap: 2rem;
@@ -172,19 +187,22 @@
                         width: 100%;
                         gap: 0.5rem;
                     }
-                    @include tablets {
-                        width: 100%;
-                    }
+                    // @include tablets {
+                    //     width: 100%;
+                    // }
                     & h2 {
                         font-size: 22px;
                     }
                     & img {
-                        width: 400px;
+                        width: 95%;
                         height: 400px;
                         border-radius: $card-border-radius;
                         @include mobile-only {
-                            width: 300px;
+                            width: 100%;
                             height: 300px;
+                        }
+                        @include tablets {
+                            height: 250px;
                         }
                     }
                     & p {
@@ -228,7 +246,7 @@
         }
         //    --------------- COMPARAISON------------------------
         & .comparaison {
-            padding: 100px 0 50px 0;
+            margin: 100px 0 50px 0;
             & h1 {
                 text-align: center;
             }
